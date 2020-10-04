@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+
+    <form action="" method="GET">
+        <label for="">First Name: <input type="text" name="fname" placeholder="first name"></label>
+        <label for="">Last Name: <input type="text" name="lname" placeholder="last name"></label>
+
+        <div>
+            <label for="">Male<input type="radio" name="gender" value="male"></label>
+            <label for="">Female<input type="radio" name="gender" value="female"></label>
+            <label for="">Other<input type="radio" name="gender" value="other"></label>
+        </div>
+
+        <label for="">Email: <input type="email" name="email" required></label>
+        <label for="">Password: <input type="text" name="pword" required></label>
+
+        <div>
+            <label for="bday">Birthday: </label>
+            <select name="year" id="bday">
+                <option value="">year</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+            </select>
+            <select name="month" id="bday">
+                <option>month</option>
+                <option>january</option>
+                <option>february</option>
+                <option>march</option>
+            </select>
+            <select name="day" id="bday">
+                <option>day</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+            </select>
+        </div>
+
+        <label for="">I agree to the terms and conditions <input type="checkbox"></label>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+</body>
+
+</html>
